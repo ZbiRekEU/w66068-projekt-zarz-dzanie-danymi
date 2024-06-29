@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 CORS(app)  
 
-API_KEY = '3823bb2627a11a3ef4a2ae93213fff09'
+API_KEY = ''
 WEATHER_URL = 'http://api.openweathermap.org/data/2.5/'
 POLLUTION_URL = 'http://api.openweathermap.org/data/2.5/air_pollution'
 
