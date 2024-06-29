@@ -22,7 +22,6 @@ const UniversityRanking = () => {
             {rankingData.map((data, index) => (
                 <div key={index} className="ranking-card">
                     <h2>{data.rank}. {data.name}</h2>
-                    {/* <p>Location: {data.location}</p> */}
                     <p>Score: {data.score}</p>
                 </div>
             ))}
